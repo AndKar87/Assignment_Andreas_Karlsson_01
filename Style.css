@@ -1,0 +1,113 @@
+:root
+{
+	font-family: sans-serif;
+}
+
+body
+{
+	background-color: #b7bdc4;
+}
+
+input
+{
+	appearance: none;
+	background-color: #e9e6e2;
+	border-radius: .5rem;
+	margin: .2rem 0;
+}
+
+button
+{
+	background-color: #e9e6e2;
+	border-style: none;
+	border-radius: .5rem;
+	font-size: 1rem;
+	padding: .2rem .5rem;
+}
+
+button:hover
+{
+	background-color: #85b3d3;
+}
+
+button:active
+{
+	background-color: #6a8093;
+}
+
+.Rel
+{
+	position: relative;
+}
+
+.Abs
+{
+	position: absolute;
+}
+
+.HUD
+{
+	position: absolute;
+	left:     0;
+	bottom:   0;
+	padding:  .5rem;
+	display: flex;
+}
+
+.Panel
+{
+	border-radius:  .5rem;
+	display:        flex;
+	flex-direction: column;
+	padding:        1rem;
+}
+
+.View
+{
+	display: flex;
+	position: relative;
+	border-radius: .5rem;
+	overflow: clip;
+	aspect-ratio: 16/9;
+	max-width: 70rem;
+}
+
+.GLCanvas 
+{
+	width: 100%;
+}
+
+.Grid
+{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.Key
+{
+	background-color: #888888;
+	border-radius: .25rem;
+	margin: .1rem;
+	padding: 0 .5rem;
+	font-variant-caps: small-caps;
+	font-size: 1.1rem;
+}
+
+.Cell
+{
+	display: flex;
+}
+
+.Slider
+{
+	display: flex;
+	flex-direction: column;
+	font-size: .9rem;
+	color: #e9ebe2;
+	margin: 0 .5rem;
+}
+
+.Buttons
+{
+	align-content: end;
+}
